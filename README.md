@@ -24,7 +24,7 @@ function App() {
       </div>
       <div>
       <lable>email</lable>
-        <input type="email" value={email}onChange={(e)=>setEmail(e.target.value)}/>
+        <input type="email" value={email}onChange={(e)=>setEmail(e.target.value)}placeholder="enter user email"/>
       
           <button type="submit">submit</button>
         </div>
@@ -35,4 +35,3 @@ function App() {
 }
 
 export default App;
- 
